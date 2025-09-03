@@ -2,7 +2,7 @@
 // Cambiá estos datos según tu hosting de MySQL
 $host = "localhost";      // normalmente localhost en hosting compartido
 $dbname = "noticias_db";  // nombre de tu base de datos
-$user = "tu_usuario";     // usuario de la base de datos
+$user = "juan3838";     // usuario de la base de datos
 $pass = "tu_clave";       // contraseña de la base de datos
 
 try {
