@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 app.get('/noticias', async (req, res) => {
   try {
     const result = await pool.query(`
-      SELECT id_noticia, titulo, subtitulo, fecha_publicacion 
+      SELECT id_noticia, titulo, bajada, contenido, fecha_publicacion 
       FROM noticias 
       WHERE estado = 'publicada'
       ORDER BY fecha_publicacion DESC
